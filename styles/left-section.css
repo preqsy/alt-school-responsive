@@ -1,0 +1,38 @@
+.left-section {
+    width: 580px;
+    height: 679px;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .left-content-container {
+    margin-top: 124px;
+ }
+ 
+ .logo-image-container {
+    width: 77.33px;
+    display: flex;
+    align-items: start;
+    margin: 0;
+ }
+ 
+ .logo-image-container img {
+    display: block;
+    margin: 0;
+    width: 77.33px;
+ }
+ 
+ .individuals-text {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+ }
+ 
+ .start-text {
+    width: 460px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(115, 115, 115, 1);
+ }

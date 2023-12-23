@@ -1,0 +1,102 @@
+.right-section {
+    background-color: white;
+    width: 580px;
+    height: 679px;
+    box-shadow: 0 4 50 rgba(4, 8, 19, 0.1);
+    border-radius: 6px;
+ }
+ 
+ .right-content-container {
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+ }
+ 
+ .first-centered-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+ }
+ 
+ .first-right-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+   column-gap: 24px; 
+    justify-items: start;
+ }
+ 
+ .name-heading {
+    font-size: 14px;
+    color: rgba(1, 28, 52, 1);
+    font-weight: 600;
+ }
+ 
+ .input-bar {
+    width: 216px;
+    height: 48px;
+    background-color: white;
+    border: 2px solid rgba(240, 240, 240, 1);
+    font-family: cabin, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 2%);
+    padding-left: 16px;
+ }
+ 
+ .second-centered-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+ }
+ 
+ .third-right-div {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 24px;
+ }
+ 
+ .input-bar-third {
+    width: 478px;
+    padding-left: 16px;
+    height: 48px;
+    background-color: white;
+    border: 2px solid rgba(240, 240, 240, 1);
+    font-family: cabin, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 2%);
+ }
+ 
+ .register-button {
+    height: 48px;
+    width: 500px;
+    background-color: rgb(46, 196, 182);
+    box-shadow: 0 10 40 rgba(0, 0, 0, 0.1);
+    font-family: cabin, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+ }
+ 
+ .condition-text {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+ }
+ 
+ .condition-text span {
+    color: rgba(46, 196, 182, 1);
+    text-decoration: underline;
+ }
